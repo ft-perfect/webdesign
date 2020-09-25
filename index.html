@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Beranda</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+.animateleft {
+	animation-name: animateleft;
+	-webkit-animation-name: animateleft;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	visibility: visible !important;
+}
+
+@keyframes animateleft {
+  	0% {
+    	opacity: 0;
+    	transform: translateX(-30%);
+  	} 
+  	100% {
+    	opacity: 1;
+    	transform: translateX(0%);
+  	}
+}
+
+@-webkit-keyframes animateleft {
+  	0% {
+    	opacity: 0;
+    	transform: translateX(-30%);
+  	} 
+  	100% {
+    	opacity: 1;
+    	transform: translateX(0%);
+  	}
+}
+
+.animatefade {
+	animation-name: animatefade;
+	-webkit-animation-name: animatefade;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	visibility: visible !important;
+}
+
+@keyframes animatefade {
+  	0% {
+    	opacity: 0;
+  	} 
+  	100% {
+    	opacity: 1;
+  	}
+}
+
+@-webkit-keyframes animatefade {
+  	0% {
+    	opacity: 0;
+  	} 
+  	100% {
+    	opacity: 1;
+  	}
+}
+	</style>
+</head>
+<body>
+	<ul style="list-style-type: none;">
+		<li class="active" style="float: left;"><a href="index.html">Beranda</a></li>
+  		<li style="float: left;"><a href="edukatif.html">Laman Edukatif</a></li>
+  		<li style="float: left;"><a href="galeri.html">Galeri Inspiratif</a></li>
+	</ul>
+
+	<div class="contenta">
+		<h1 style="text-align: right;font-size: 40pt;width: 95%;padding-left: 0;padding-top: 10px;">Realneed</h1>
+		<img src="image/image1v1.png">
+		<h1>Covid-19<br>Telah Menyebar<br>Dengan Luas</h1>
+	</div>
+
+	<div class="contentb">
+		<img style="position: relative;" id="senter" src="image/senter.png">
+		<h1>Jumlah kematian<br>lebih dari 8500 korban<br>jiwa, diantaranya 100+<br>tenaga medis</h1>
+		<img style="position: absolute; top: 250%; left: 25%; width: 20%; height: auto;" id="pop" src="image/grave.png">
+	</div>
+
+	<img style="width: 100%; height: auto;" src="image/bg2.png">
+
+	<div class="contentc">
+		<img src="image/plant.png">
+		<h1>Tidak peduli apa yang<br>terjadi, kehidupan akan<br>tetap berlanjut</h1>
+	</div>
+
+	<img style="width: 100%; height: auto;" src="image/bg3.png">
+
+	<div class="contentd">
+		<img src="image/book.png">
+		<h1>Salah satu aspek yang<br>terdampak serius adalah<br>pendidikan</h1>
+	</div>
+
+	<img style="width: 100%; height: auto;" src="image/bg4.png">
+
+	<div class="contente">
+		<h1 style="text-align: left;">Website ini akan memberikan data dan beberapa<br>
+		solusi yang dapat membantu memajukan<br>
+		industri pendidikan</h1>
+		<img src="image/graph.png"><br>
+		<a href="edukatif.html"><button>Next Page</button></a>
+	</div>
+
+	<script>
+	window.onscroll = function() {myFunction()};
+
+	function myFunction() {
+	  if (document.body.scrollTop > 850 || document.documentElement.scrollTop > 850) {
+	    document.getElementById("senter").className = "animateleft";
+	  }
+	  if (document.body.scrollTop > 950 || document.documentElement.scrollTop > 950) {
+	    document.getElementById("pop").className = "animatefade";
+	  }
+	}
+	</script>
+</body>
+</html>

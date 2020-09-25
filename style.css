@@ -1,0 +1,389 @@
+@font-face {
+  font-family: coolvetica;
+  src: url(font/CoolveticaRg-Regular.otf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: coolvetica;
+	font-size: 0;
+}
+
+.contenta {
+	overflow: hidden;
+  	padding-bottom: 200px;
+	background-image: url('image/BG1.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.contenta h1 {
+	display: inline-block;
+  	width: 40%;
+  	font-size: 60px;
+  	color: #ffffff;
+  	padding-left: 10px;
+  	vertical-align: middle;
+  	padding-top: 60px;
+}
+
+.contenta img {
+	width: 40%;
+  	margin-left: 10%;
+  	display: inline-block;
+  	vertical-align: middle;
+  	padding-top: 30px;
+}
+
+.contentb {
+	margin-top: -60px;
+	background-color: #001A33;
+}
+
+.contentb h1 {
+	position: absolute;
+	top: 207%;
+	left: 48%;
+	color: #001A33;
+	font-size: 40pt;
+	float: left;
+}
+
+.contentb img {
+	width: 100%;
+	height: auto;
+	visibility: hidden;
+}
+
+.contentc {
+	padding-top: 200px;
+	padding-left: 10%;
+	padding-bottom: 250px;
+}
+
+.contentc h1 {
+	width: 43%;
+	padding-top: 60px;
+	font-size: 32pt;
+}
+
+.contentc img {
+	position: absolute;
+	width: 35%;
+	left: 55%;
+}
+
+.contentd {
+	background-color: #D2E7FF;
+	padding-left: 10%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.contentd h1 {
+	padding-left: 5%;
+	width: 45%;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30pt;
+}
+
+.contentd img {
+	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contente {
+	padding-top: 200px;
+	padding-bottom: 100px;
+	background-color: #ffefd7;
+	text-align: center;
+}
+
+.contente h1 {
+	padding-left: 10%;
+	width: 85%;
+	font-size: 30pt;
+}
+
+.contente img {
+	width: 80%;
+	padding-bottom: 50px;
+}
+
+.contente button {
+	background-color: #D2E7FF;
+  	border: none;
+  	color: black;
+  	padding: 20px 50px;
+  	text-align: center;
+  	font-size: 25px;
+  	margin: 4px 2px;
+  	border-radius: 20px;
+	font-family: coolvetica;
+}
+
+.contentf {
+	padding-top: 1px;
+  	padding-bottom: 200px;
+	background-image: url('image/bg5.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.contentf h1 {
+	font-size: 50pt;
+	text-align: center;
+	color: white;
+}
+
+.contentf img {
+	padding-left: 5%;
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+
+.contentf p {
+	padding-left: 2%;
+	display: inline-block;
+	font-size: 30pt;
+	width: 58%;
+	color: white;
+	vertical-align: middle;
+}
+
+.contentg {
+	padding-top: 220px;
+  	padding-bottom: 220px;
+}
+
+.contentg h1 {
+	font-size: 30pt;
+	padding-left: 5%;
+	width: 58%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contentg img {
+	padding-left: 2%;
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+
+.contenth {
+	padding-top: 220px;
+  	padding-bottom: 220px;
+  	background-color: #96A0FF;
+}
+
+.contenth h1 {
+	font-size: 30pt;
+	padding-left: 2%;
+	width: 58%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contenth img {
+	padding-left: 5%;
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+
+.contenti {
+	padding-top: 220px;
+  	padding-bottom: 220px;
+  	background-color: #6EB6FF;
+}
+
+.contenti h1 {
+	font-size: 30pt;
+	padding-left: 5%;
+	width: 58%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contenti video {
+	padding-left: 2%;
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+
+.contentj {
+	padding: 200px 0;
+	background-color: #ADF8D7;
+}
+
+.contentj img {
+	width: 20%;
+	vertical-align: middle;
+	padding-left: 5%; 
+}
+
+.contentj video {
+	width: 40%;
+	vertical-align: middle;
+	margin-left: 5%;
+}
+
+.contentk {
+	padding: 200px 0;
+	background-color: #FFABAB;
+}
+
+.contentk img {
+	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 5%; 
+}
+
+.contentk video {
+	width: 40%;
+	vertical-align: middle;
+	margin-left: 5%;
+}
+
+.contentl {
+	padding: 200px 0;
+	background-color: #A69AFE;
+}
+
+.contentl img {
+	width: 20%;
+	vertical-align: middle;
+	padding-left: 5%; 
+}
+
+.contentl video {
+	width: 40%;
+	vertical-align: middle;
+	margin-left: 5%;
+}
+
+.contentm {
+	padding-top: 200px;
+	padding-bottom: 50px;
+	background-color: #C4FBF8;
+	text-align: center;
+}
+
+.contentm img {
+	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 5%;
+}
+
+.contentm video {
+	width: 40%;
+	vertical-align: middle;
+	margin-left: 5%;
+	padding-bottom: 50px;
+}
+
+.contentm button {
+	background-color: #D2E7FF;
+  	border: none;
+  	color: black;
+  	padding: 20px 50px;
+  	text-align: center;
+  	font-size: 25px;
+  	margin: 4px 2px;
+  	border-radius: 20px;
+	font-family: coolvetica;
+}
+
+.contentn {
+	padding-top: 130px;
+	padding-bottom: 130px;
+	background-image: url(image/sepeda.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.contentn img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contentn video {
+	display: inline-block;
+	vertical-align: middle;
+	width: 35%;
+}
+
+.contento {
+	padding-top: 240px;
+	padding-bottom: 240px;
+	background-image: url(image/laptop2.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.contento img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contentp {
+	padding-top: 240px;
+	padding-bottom: 240px;
+	background-image: url(image/gitar.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.contentp img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contentq {
+	padding-top: 200px;
+	padding-bottom: 130px;
+	background-image: url(image/quote.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	text-align: center;
+}
+
+.contentq img {
+	vertical-align: middle;
+	width: 80%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20pt;
+}
+
+.active {
+  background-color: #82eefd;
+}
